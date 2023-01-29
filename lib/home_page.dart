@@ -27,6 +27,7 @@ class _HomePageState extends State<HomePage> {
             for(int i = 0; i < messages.length; i++){
               "id": "${messages[i].id}",
               "message-address": "${messages[i].address}",
+              "message-body":"${messages[i].body}",
             }
           });
       print(response.body);
